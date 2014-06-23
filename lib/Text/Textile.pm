@@ -5,7 +5,7 @@ use warnings;
 
 use base 'Exporter';
 our @EXPORT_OK = qw(textile);
-our $VERSION = 2.12.1;
+our $VERSION = '2.12.2';
 our $debug = 0;
 
 sub new {

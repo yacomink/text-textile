@@ -7,7 +7,6 @@ use Text::Textile;
 
 {
     my $tt = Text::Textile->new( disable_inline_formatting => 1 );
-    warn $tt->{disable_inline_formatting};
 
     my $source = <<'SOURCE';
 start *paragraph*
